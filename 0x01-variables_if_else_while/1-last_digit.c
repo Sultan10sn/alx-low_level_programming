@@ -20,18 +20,26 @@ int main (void)
  printf("Last digit of %d is %d and is greater than 5\n",n,y);
  
 }
- else if (y < 6 && != 0)
+ else if (y < 6)
  {
   printf("Last digit of %d is %d and is less than 6 not 0\n",n,y);
  
  }
  
  else if (y == 0)
- 
  {
+ 
  printf("Last digit of %d is %d and is 0\n",n,y);
+ 
+ 
  }
 
+else 
+{
+ printf("not found\n");
+ 
+ 
+}
 
 printf("\n");
 return(0);
